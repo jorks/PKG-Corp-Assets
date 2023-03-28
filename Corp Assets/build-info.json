@@ -3,9 +3,13 @@
     "suppress_bundle_relocation": true,
     "postinstall_action": "none",
     "preserve_xattr": false,
-    "name": "CorpAssets-${version}.pkg",
-    "identifier": "com.github.munki.pkg.CorpAssets",
+    "name": "Corp Assets-${version}.pkg",
+    "identifier": "net.jorks.corp-assets",
     "install_location": "/",
-    "version": "1.0",
-    "distribution_style": false
+    "version": "1.0.0",
+    "distribution_style": true,
+    "signing_info": {
+        "identity": "Developer ID Installer: SEEK Limited (KS9GBQ67G7)",
+        "timestamp": true
+    }
 }
